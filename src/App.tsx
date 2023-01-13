@@ -5,6 +5,7 @@ import Components from './comp/comp'
 import { Container } from './components/container'
 import Login from './components/Login/login'
 import SignUp from './components/signup/signup'
+import { ResetPassword } from './routes/reset-password'
 
 const router = createBrowserRouter([
  {
@@ -18,15 +19,17 @@ const router = createBrowserRouter([
   {
     path: "/test-inputs",
     element: <Components />
+  },
+  {
+    path: "/reset-password",
+    element: <ResetPassword/>
   }
 ])
 function App(){
  
 
   return (
-    <div className="App">
     <RouterProvider router={router}/>
-    </div>
   ) 
 }
  

@@ -6,8 +6,7 @@ import LeftSide from "../left/leftside"
 import './login.css'
 
 function Login() {
-    return <div>
-       <Container>
+    return <Container>
       
                 {/* <Link to="/signIn" className="link2" >SignIn</Link>
              <Link to="/login" className="link3" >Login</Link>  */}
@@ -26,6 +25,6 @@ function Login() {
                 </form>
             
        </Container>
-    </div>
+
 }
 export default Login

@@ -6,7 +6,7 @@ import img2 from '../../assets/Ellipse 2.png'
 
 const LeftSide= ()=>{
   return(
-    <div className="col-1">
+    <div className="container__col-1">
         <img src={img1} alt="" className="image1"/>
         <img src={img2} alt="" className="image2"/>
     </div>
