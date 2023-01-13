@@ -16,7 +16,7 @@ return (
 
 }} variant="three" errorText="Error ..." /> <br />
 
-<TextFieldExplained name={"PassW"} variant={"one"} label={""} placeholder="Password"/>
+<TextFieldExplained name={"PassWord"} variant={"four"} label={"password"} placeholder="Password"/>
 
 </div>
 )

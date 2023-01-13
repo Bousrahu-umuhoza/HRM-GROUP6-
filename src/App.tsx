@@ -9,9 +9,10 @@ import { ResetPassword } from './routes/reset-password'
 
 const router = createBrowserRouter([
  {
-    path:'/login',
+    path:'/',
     element:<Login/>
   },
+  
   {
     path:'/signup',
     element:<SignUp/>
@@ -23,7 +24,8 @@ const router = createBrowserRouter([
   {
     path: "/reset-password",
     element: <ResetPassword/>
-  }
+  },
+
 ])
 function App(){
  

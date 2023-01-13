@@ -5,7 +5,7 @@ import { ChangeEventHandler, useState } from "react";
 type Props = {
     name: string, 
     type?: "email" | "password" | "text" | "number" | "date" | "Username", 
-    variant: "one" | "two" | "three", 
+    variant: "one" | "two" | "three" |"four", 
     label: string,
     helperText?: string,
     errorText?: string,
