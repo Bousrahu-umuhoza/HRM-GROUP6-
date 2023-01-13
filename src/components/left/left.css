@@ -1,0 +1,21 @@
+.col-1{
+    background-color:#128989;
+    border-radius: 20px 0px 0px 20px;
+    width: 525px;
+    height: 332px;
+  }
+.image1{
+    width: 184px;
+    height: 224px;
+    position: relative;
+    top: 56px;
+    left: -3px;
+    
+}
+.image2{
+    width: 65px;
+    height: 132px;
+    position: relative;
+    left: -30px;
+    top: 8px;
+}

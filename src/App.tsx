@@ -1,17 +1,31 @@
-
 import { Component, useState } from 'react'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Components from './comp/comp'
+import { Container } from './components/container'
+import Login from './components/Login/login'
+import SignUp from './components/signup/signup'
 
-function App(){
-  const onchange =()=>{
+const router = createBrowserRouter([
+ {
+    path:'/login',
+    element:<Login/>
+  },
+  {
+    path:'/signup',
+    element:<SignUp/>
+  },
+  {
+    path: "/test-inputs",
+    element: <Components />
   }
+])
+function App(){
+ 
 
   return (
     <div className="App">
-    {/* <Input type="text"  label="string" helperText="text" error="text" onchange={onchange} /> */}
-  
-    <Components/>
+    <RouterProvider router={router}/>
     </div>
   ) 
 }

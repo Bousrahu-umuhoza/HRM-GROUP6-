@@ -1,5 +1,4 @@
 import "./comp.css"
-import Text from "../Text/text"
 import {TextFieldExplained} from "../components/input"
 const Components =() =>{
 return (
@@ -9,7 +8,7 @@ return (
 }} variant="one" errorText="Error ..." /> <br />
 
 
-<TextFieldExplained variant="two"  type="text" name="fullNames" label="FullName*" helperText="SupportingText" onChange={ ()=>{
+<TextFieldExplained  variant="two"  type="text" name="fullNames" label="FullName*" helperText="SupportingText" onChange={ ()=>{
 
 }} errorText="Error ..." /> <br />
 
@@ -17,7 +16,7 @@ return (
 
 }} variant="three" errorText="Error ..." /> <br />
 
-
+<TextFieldExplained name={"PassW"} variant={"one"} label={""} placeholder="Password"/>
 
 </div>
 )
