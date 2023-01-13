@@ -9,7 +9,10 @@ type Props = {
     label: string,
     helperText?: string,
     errorText?: string,
+    placeholder?: string,
+    className?: string,
     onChange?: ChangeEventHandler<HTMLInputElement>
+   
 }
 export const TextFieldExplained = ({ 
     name, 
@@ -17,8 +20,10 @@ export const TextFieldExplained = ({
     variant =  "one", 
     label, 
     helperText, 
-    onChange, 
-    errorText
+    onChange,
+    placeholder,
+    errorText,
+    className = "",
 }: Props) => {
     const [inputValue, setInputValue] = useState("");
     const inputId = name;
@@ -30,7 +35,7 @@ export const TextFieldExplained = ({
         emptyInput = "not-empty";
     }
     
-    return <div className={`txt-field ${variant} ${emptyInput}`} >
+    return <div className={`txt-field ${variant} ${emptyInput} ${className}`} >
         
         <input id={inputId} name={name} type={type} onChange={v=>{
             setInputValue(v.target.value);
@@ -46,6 +51,10 @@ export const TextFieldExplained = ({
          {
         !errorText ?  null :
         <span className="error-text">{errorText}</span>
+        }
+        {
+        !placeholder ?  null :
+        <span className="placeholder">{}</span>
         }
         
     </div>
