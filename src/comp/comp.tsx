@@ -3,20 +3,17 @@ import {TextFieldExplained} from "../components/input"
 const Components =() =>{
 return (
 <div className="create">
-<TextFieldExplained  type="text" name="fullNames" label="FullName*" helperText="SupportingText" onChange={ ()=>{
+<TextFieldExplained  type="text" name="fullNames" label="FullName*" helperText="SupportingText" onChange={() => {
+        } } variant="one" errorText="Error ..." placeholder={""} /> <br />
 
-}} variant="one" errorText="Error ..." /> <br />
 
+<TextFieldExplained  variant="two" type="text" name="fullNames" label="FullName*" helperText="SupportingText" onChange={() => {
+        } } errorText="Error ..." placeholder={""} /> <br />
 
-<TextFieldExplained  variant="two"  type="text" name="fullNames" label="FullName*" helperText="SupportingText" onChange={ ()=>{
+<TextFieldExplained  type="text" name="fullNames" label="FullName*" helperText="SupportingText" onChange={() => {
+        } } variant="three" errorText="Error ..." placeholder={""} /> <br />
 
-}} errorText="Error ..." /> <br />
-
-<TextFieldExplained  type="text" name="fullNames" label="FullName*" helperText="SupportingText" onChange={ ()=>{
-
-}} variant="three" errorText="Error ..." /> <br />
-
-<TextFieldExplained name={"PassWord"} variant={"four"} label={"password"} placeholder="Password"/>
+<TextFieldExplained type="password" name={"PassWord"} variant={"four"} label="password" placeholder="Password"/>
 
 </div>
 )

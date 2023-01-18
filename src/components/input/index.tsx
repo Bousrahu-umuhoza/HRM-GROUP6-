@@ -9,7 +9,7 @@ type Props = {
     label: string,
     helperText?: string,
     errorText?: string,
-    placeholder?: string,
+    placeholder: string,
     className?: string,
     onChange?: ChangeEventHandler<HTMLInputElement>
    
@@ -21,7 +21,7 @@ export const TextFieldExplained = ({
     label, 
     helperText, 
     onChange,
-    placeholder,
+    placeholder="",
     errorText,
     className = "",
 }: Props) => {
@@ -35,7 +35,7 @@ export const TextFieldExplained = ({
         emptyInput = "not-empty";
     }
     
-    return <div className={`txt-field ${variant} ${emptyInput} ${className}`} >
+    return <div className={`txt-field ${variant} ${emptyInput} ${className} ${placeholder}`} >
         
         <input id={inputId} name={name} type={type} onChange={v=>{
             setInputValue(v.target.value);

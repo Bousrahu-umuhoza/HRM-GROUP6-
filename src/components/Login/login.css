@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #d0eeee;
+  /* background-color: #d0eeee; */
 }
 
 .container {
@@ -20,10 +20,13 @@ body {
 
 .full-names label {
   font-size: 12px;
+
 }
 
 .full-names input {
-  color: red;
+  color: rgb(15, 14, 14);
+  border-bottom: 1px solid #000;
+  margin: 0px;
 }
 
 button.btn {
@@ -32,33 +35,39 @@ button.btn {
   margin: 48px;
   padding: 8px;
   background: #128989;
+  color: #fff;
   border: 1px solid #24DBDB;
 
 }
 
-/* .col-2 h3{
-    font-size: 16px;
-    top: 167px;
-    position: absolute;
-    left: 471px; 
-    margin: 9px;
-    padding: 4px;
-    text-align: right;
-    line-height: 41px;
-  } */
-form #form.flex.flex-col {
-  margin: 82px;
-  margin-left: -7px;
+ h3{
+   position: absolute;
+  } 
+
+form#form.flex.flex-col p{
+  font-size: 9px;
+}
+p.hey{
+ left: -13em;
+  color: #128989;
 }
 
 .link3 {
   position: relative;
   left: 83px;
-  color: #128989;
+  color: #000;
 }
 
 .link2 {
   left: 64px;
   position: relative;
-  color: #000;
+  color: #128989;
+}
+.link1{
+  color: #128989;
+  text-decoration: underline;
+}
+.span{
+  font-size: 12px;
+  display: block;
 }

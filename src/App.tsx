@@ -6,13 +6,16 @@ import { Container } from './components/container'
 import Login from './components/Login/login'
 import SignUp from './components/signup/signup'
 import { ResetPassword } from './routes/reset-password'
+import { Button } from '@mui/material'
+
+import { HomePage } from './routes/home/home'
+
 
 const router = createBrowserRouter([
  {
-    path:'/',
-    element:<Login/>
+    path:"/",
+  element:<HomePage/>
   },
-  
   {
     path:'/signup',
     element:<SignUp/>
@@ -25,6 +28,11 @@ const router = createBrowserRouter([
     path: "/reset-password",
     element: <ResetPassword/>
   },
+  
+ {
+  path:'/login',
+    element:<Login/>
+ }
 
 ])
 function App(){
