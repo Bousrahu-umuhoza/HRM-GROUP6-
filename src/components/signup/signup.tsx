@@ -17,17 +17,17 @@ const SignUp = () => {
                 <form id="form" className="flex flex-col">
 
 
-                    <TextFieldExplained type="text" name="FirstName" label="FirstName" onChange={() => { }} variant="three" errorText="Error ..." />
+                    <TextFieldExplained type="text" name="FirstName" label="FirstName" onChange={() => { } } variant="three" errorText="Error ..." placeholder={""} />
 
                     <TextFieldExplained type="text" name="LastName" label="LastName" onChange={() => {
-                    }} variant="three" errorText="Error ..." />
+                    } } variant="three" errorText="Error ..." placeholder={""} />
 
-                    <TextFieldExplained type="text" name="Email" label="Email" onChange={() => { }} variant="three" errorText="Error ..." />
+                    <TextFieldExplained type="text" name="Email" label="Email" onChange={() => { } } variant="three" errorText="Error ..." placeholder={""} />
 
-                    <TextFieldExplained type="text" name="Password" label="Password" onChange={() => { }} variant="three" errorText="Error ..." />
+                    <TextFieldExplained type="text" name="Password" label="Password" onChange={() => { } } variant="three" errorText="Error ..." placeholder={""} />
 
                     <TextFieldExplained type="text" name=" Confirm Password" label="Confirm Password" onChange={() => {
-                    }} variant="three" errorText="Error ..." />
+                    } } variant="three" errorText="Error ..." placeholder={""} />
 
                     <button className="btn">Signup</button>
 

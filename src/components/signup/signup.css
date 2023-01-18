@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #d0eeee ;
+    /* background-color: #d0eeee ; */
 }
 .register{
     /* padding: 20px; */
@@ -37,6 +37,7 @@ body{
     padding: 8px;
     background: #128989;
     border: 1px solid #24DBDB;
+    
 
 }
 .col-2 h3{

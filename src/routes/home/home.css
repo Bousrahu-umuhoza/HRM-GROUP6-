@@ -1,0 +1,49 @@
+.back-ground{
+width: 100%;
+height: 100%;
+display: block;
+background-color: #128989;
+background-image:url('../home/image 2.png');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+        
+}
+.back-ground::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #128989;
+    opacity: 0.7;
+}
+.back-ground h1{
+    font-size: xx-large;
+    padding: 70px;
+    position: relative;
+}
+p{
+    color: #fff;
+    font-size: 19px;
+    position: relative;
+}
+.check button{
+    position: relative;
+   top: 100px;
+   color: white;
+   background-color: unset;
+   border: 2px solid #FFFFFF;
+
+}
+span.resource p{
+    position: relative;
+    top: 170px;
+}
+@media (max-width: 100%){
+    .back-ground{
+        padding: 8px;
+    }
+}
