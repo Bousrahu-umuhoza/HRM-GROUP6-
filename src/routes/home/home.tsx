@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const HomePage=()=>{
     return<div className='back-ground' >
        
-        <h1>HR Done Differently</h1>
+        <h1>HR done differently</h1>
         <p>You've Got This! Or Maybe You Don't. <br/>
         Get An HR Check-up And Find Out in 10 minutes<br/> where Your Business Stands.</p>
     
@@ -15,7 +15,7 @@ export const HomePage=()=>{
         </span>
 
         <span className='resource'>
-          <p>Human Resource Management Feels Overwhelming,<br/> It doesn't have To Be </p>  
+          <p>If Human Resource Management Feels Overwhelming,<br/> It doesn't have To Be </p>  
         </span>
 
         

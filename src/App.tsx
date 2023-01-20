@@ -4,7 +4,7 @@ import './App.css'
 import Components from './comp/comp'
 import { Container } from './components/container'
 import Login from './components/Login/login'
-import SignUp from './components/signup/signup'
+
 import { ResetPassword } from './routes/reset-password'
 import { Button } from '@mui/material'
 
@@ -16,10 +16,7 @@ const router = createBrowserRouter([
     path:"/",
   element:<HomePage/>
   },
-  {
-    path:'/signup',
-    element:<SignUp/>
-  },
+ 
   {
     path: "/test-inputs",
     element: <Components />
