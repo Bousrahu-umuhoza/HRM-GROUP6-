@@ -27,7 +27,7 @@ background-image:url('../home/image 2.png');
 }
 p{
     color: #fff;
-    font-size: 19px;
+    font-size: 14px;
     position: relative;
 }
 .check button{
@@ -35,7 +35,7 @@ p{
    top: 100px;
    color: white;
    background-color: unset;
-   border: 2px solid #FFFFFF;
+   border: 3px solid #FFFFFF;
 
 }
 span.resource p{
