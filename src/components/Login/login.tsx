@@ -77,6 +77,19 @@ function Login() {
             <div className="bottom">
                 <button className="btn">Login</button><br />
                 <span className="span">Are you now here?
+                <form id="form" className="flex flex-col">
+
+                    <TextFieldExplained className="full-names" type="text" name="Email" label="Email" onChange={() => {
+            } } variant="three" errorText="Error ..." placeholder={""} /> <br/>
+                    <TextFieldExplained className="full-names" type="text" name="Password" label="Password" onChange={() => {
+            } } variant="three" errorText="Error ..." placeholder={""} />
+            <input type="text" className="round"/>
+                    <p className="hey">forgot password?
+                        <Vector/>
+                    </p> <br/><br/>
+                    <div className="bottom">
+                    <button className="btn">Login</button><br/>
+                    <span className="span">Are you now here?
                     <Link to="/signup" className="link1"> Signup </Link>
                     instead
                 </span>
