@@ -32,7 +32,7 @@ button.btn {
   margin: 48px;
   padding: 8px;
   background: #128989;
-  border: 1px solid #24DBDB;
+  /* border: 1px solid #24DBDB; */ /*i made a chane*/
 
 }
 

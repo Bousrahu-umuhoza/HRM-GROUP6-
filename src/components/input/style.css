@@ -1,10 +1,10 @@
 .txt-field{
-    height: 56px;
+    height: 45px;
     min-width: 260px;
-    width: 100%;
+    width: 100%;         /* changes made */
     max-width: 500px;
     position: relative;
-    margin: 32px 0;
+    margin: 4px 0; /* changes needed from lily*/
     background-color:  #242424;
    
 }
@@ -72,7 +72,7 @@
     top: 14px;
 }
 .txt-field.three{
-    border-bottom: 1px solid beige;
+    border-bottom: 1px solid #4c4c3c;
     background-color:inherit;
 }
 .txt-field.three input{

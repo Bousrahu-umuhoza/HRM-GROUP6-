@@ -1,42 +1,37 @@
+import { Checkbox, } from "@mui/material"
 import React from "react"
 import { Link } from "react-router-dom"
 import { TextFieldExplained } from "../input"
-import LeftSide from "../left/leftside"
+import { Container } from "../../components/container"
 import './signup.css'
 
 const SignUp = () => {
-    return <div>
-        <div className="register ">
+    return <Container>
+                   
+              <form id="" className="second">
+              <Link className="linking" to='/Login'>Signup</Link>
+                        <Link className="linking1" to='/signup'>Login</Link> 
+              <h2>SIGN UP</h2>
 
-            <LeftSide />
+                  <TextFieldExplained type="text" name="FirstName" label="First name" className="input-changes" onChange={() => { }} variant="three" errorText="Error ..." />
 
-            <div className="col-2">
-                {/* <Link to="/signup" className="link2" >SignUp</Link>
-            <Link to="/login" className="link3" >Login</Link>  */}
-                <h3>Signup</h3>
-                <form id="form" className="flex flex-col">
+                  <TextFieldExplained type="text" name="LastName" label="Last name" className="input-changes" onChange={() => {
+                  }} variant="three" errorText="Error ..." />
 
+                  <TextFieldExplained  type="text" name="Email" label="Email" className="input-changes" onChange={() => { }} variant="three" errorText="Error ..." />
 
-                    <TextFieldExplained type="text" name="FirstName" label="FirstName" onChange={() => { }} variant="three" errorText="Error ..." />
+                  <TextFieldExplained type="text"  name="Password" label="Password" className="input-changes" onChange={() => { }} variant="three" errorText="Error ..." />
+                   
+                  <TextFieldExplained  type="text" name=" Confirm Password" label="Confirm password" className="input-changes" onChange={() => {
+                  }} variant="three" errorText="Error ..." />
+                  
+                  <input type="checkbox" className="box1"/> 
+                  <p>i agree with terms and condition</p>
 
-                    <TextFieldExplained type="text" name="LastName" label="LastName" onChange={() => {
-                    }} variant="three" errorText="Error ..." />
-
-                    <TextFieldExplained type="text" name="Email" label="Email" onChange={() => { }} variant="three" errorText="Error ..." />
-
-                    <TextFieldExplained type="text" name="Password" label="Password" onChange={() => { }} variant="three" errorText="Error ..." />
-
-                    <TextFieldExplained type="text" name=" Confirm Password" label="Confirm Password" onChange={() => {
-                    }} variant="three" errorText="Error ..." />
-
-                    <button className="btn">Signup</button>
-
-                </form>
-            </div>
-
-
-        </div>
-    </div>
+                  <button className="initiate">SIGN UP</button>
+                  
+              </form>
+    </Container>
 }
 export default SignUp
 
