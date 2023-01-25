@@ -9,6 +9,7 @@ import { ResetPassword } from './routes/reset-password'
 import { Button } from '@mui/material'
 
 import { HomePage } from './routes/home/home'
+import SignUp from './routes/signup/signup'
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
  {
   path:'/login',
     element:<Login/>
+ },
+ {
+  path:'/signup',
+  element:<SignUp/>
  }
 
 ])

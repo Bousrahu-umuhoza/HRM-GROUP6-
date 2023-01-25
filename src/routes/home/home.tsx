@@ -6,7 +6,7 @@ export const HomePage=()=>{
     return<div className='back-ground' >
        
         <h1>HR done differently</h1>
-        <p>You've Got This! Or Maybe You Don't. <br/>
+        <p className='paragraph1'>You've Got This! Or Maybe You Don't. <br/>
         Get An HR Check-up And Find Out in 10 minutes<br/> where Your Business Stands.</p>
     
         <span className='check'>
