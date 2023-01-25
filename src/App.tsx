@@ -6,7 +6,7 @@ import { Container } from './components/container'
 import Login from './components/Login/login'
 import SignUp from './components/signup/signup'
 import { ResetPassword } from './routes/reset-password'
-
+import AddEmployees from './routes/add-employees/add'
 const router = createBrowserRouter([
  {
     path:'/login',
@@ -23,7 +23,12 @@ const router = createBrowserRouter([
   {
     path: "/reset-password",
     element: <ResetPassword/>
-  }
+  },
+
+  {
+  path: "/add-employees",
+   element: <AddEmployees/>
+  },
 ])
 function App(){
  

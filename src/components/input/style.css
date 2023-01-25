@@ -82,5 +82,7 @@
 .txt-field.three input:focus ~ label, .three.not-empty label{
     top: 14px;
  
-
+}
+.txt-field.four{
+    border: 1px solid black;
 }

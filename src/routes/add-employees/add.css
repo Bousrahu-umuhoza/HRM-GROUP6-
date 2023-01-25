@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+ body{
+
+    position: relative;
+    height: 100%;
+    align-items: center;    
+    justify-content: center;
+    background-color: #f9fafb;/*chages that can affect */
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+} 
+h3{
+    position: relative;
+    left: 19em;
+    top: -18px;
+}
+ 
+  
+.form-add-employ{
+    width: 19%;
+  margin: 83px;  
+    height: 100%;
+}
+
+.input-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 15em;
+}
+    
+.label1{
+    margin-right: 20px;
+    position: relative;
+    top: -86px;
+    right: 63px;
+}
+
+
+
+.id-2{
+    left: 247px;
+    top: -52px;
+    position: relative;
+}
+
+.second-name{
+    left: 247px;
+    top: -60px;
+    position: relative;
+}
+.qualification{
+    left: 18em;
+    top: -46px;
+    position: relative;
+}
+.mobile-number{
+    left: 16em;
+    top: -188px;
+    position: relative;
+}
+.gender{
+    left: 16em;
+    top: -232px;
+    position: relative;
+}
+
+input{
+    width: 17em;
+    height: 30px;
+    padding-left: 5px; 
+    border-radius: 9px;
+}
+.email1{
+    position: relative;
+    top: -56px;
+}
+.label3{
+    position: relative;
+    top: -53px;
+    right: 29px;
+}
+.email{
+    position: relative;
+    top: -87px;
+}
+.email5{
+    position: relative;
+    top: -134px;
+}
+.label5{
+    position: relative;
+    top: -135px;
+    right: 63px;
+}
+
+.email6{
+    position: relative;
+    top: -177px;
+}
+
+.label6{
+    position: relative;
+    top: -178px;
+    right: 56px;
+}
+
+.label2{
+    position: relative;
+    top: -94px;
+    right: 87px;
+}
+
+.field{
+    position: relative;
+    top: -25px;
+}
+.field10{
+    position: relative;
+    top: -93px;
+    right: 36px;
+}
+.btn-sub{
+    position: relative;
+    top: -205px;
+    background-color: green;
+    width: 21em;
+    height: 2em;
+    left: 90px;
+}
+.label20{
+    margin-right: 82px;
+}
+.label13{
+    margin-right: 83px;
+}
+.label11{
+    margin-right: 128px;
+}
+.label21{
+    margin-right: 95px;
+}
+.label35{
+    position: relative;
+    top: -136px;
+    right: 43px;
+}
+
+
+
+
+
+
+
