@@ -1,0 +1,45 @@
+body{
+    background-color: aliceblue;
+   padding-top: 50px;
+   margin: 2px;
+   
+}
+
+
+h3{
+    padding-bottom: 20px;
+    padding-top: 20px;
+   size: 70px;
+   color: #000000;
+   font-size:xx-large;
+}
+
+h4{
+    padding-top: 20px;
+    color: #000000;
+
+}
+p a{
+    color: red;
+}
+p{
+    padding-bottom: 30px;
+
+
+}
+.six input{
+  width: 30px;
+  height: 40px;
+  margin: 10px;
+  font-weight: 300px;
+  text-align: center;
+  border-radius: 10px;
+    
+}
+.code{
+    background-color: #128989;
+    height: 56px;
+    width: 300px;
+    border-radius:6px;
+    color: white;
+}

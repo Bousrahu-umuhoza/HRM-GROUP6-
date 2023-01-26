@@ -5,8 +5,9 @@ import Components from './comp/comp'
 import { Container } from './components/container'
 import Login from './components/Login/login'
 import SignUp from './components/signup/signup'
+import CodeVerify from './routes/codeverfy/verfy'
 import { ResetPassword } from './routes/reset-password'
-
+import Verification from './routes/verfication/verfication'
 const router = createBrowserRouter([
  {
     path:'/login',
@@ -23,8 +24,17 @@ const router = createBrowserRouter([
   {
     path: "/reset-password",
     element: <ResetPassword/>
-  }
-])
+  },
+  {
+    path: "/verify", 
+  element:<CodeVerify/>
+},
+{
+  path: "/verfication",
+  element:<Verification/>
+},
+
+]);
 function App(){
  
 
@@ -32,6 +42,8 @@ function App(){
     <RouterProvider router={router}/>
   ) 
 }
+
+export default App;
  
-export default App
+
 
