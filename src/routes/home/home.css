@@ -1,12 +1,14 @@
 .back-ground{
-width: 100%;
-height: 100%;
-display: block;
-background-color: #128989;
+width: 100%; 
+ height: 100%;
+/* background-color: #128989; */
 background-image:url('../home/image 2.png');
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        gap: 125px;
        
         
 }
@@ -22,30 +24,36 @@ background-image:url('../home/image 2.png');
 }
 .back-ground h1{
     font-size: xx-large;
-    padding: 70px;
     position: relative;
+    top: 70px;
+}
+.building-con{
+    font-size: 22px;
+    font-style: revert;
+    font-weight: 700;
 }
 .paragraph1{
     color: #fff;
     font-size: 14px;
     position: relative;
-    left: 314px;
+    
+}
+.paragraph1 p{
+    color: #fff;
 }
 .check button{
     position: relative;
-   top: 100px;
+    border-radius: inherit;
    color: white;
    background-color: unset;
    border: 3px solid #FFFFFF;
 
 }
-span.resource p{
+.resource p{
     position: relative;
-    top: 277px;
-    left: 258px;
+    color: #fff;
+    font-size: 11px;
 }
-@media (max-width: 100%){
-    .back-ground{
-        padding: 8px;
-    }
+.black-color{
+    color: black;
 }

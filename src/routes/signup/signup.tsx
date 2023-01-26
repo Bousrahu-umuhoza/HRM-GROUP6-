@@ -31,9 +31,9 @@ const SignUp = () => {
 
                   <TextFieldExplained  type="text" name="Email" label="Email" className="input-changes" onChange={() => { } } variant="three" errorText="Error ..." placeholder={""} />
 
-                  <TextFieldExplained type="text" name="Password" label="Password" className="input-changes" onChange={() => { } } variant="three" errorText="Error ..." placeholder={""} />
+                  <TextFieldExplained type="password" name="Password" label="Password" className="input-changes" onChange={() => { } } variant="three" errorText="Error ..." placeholder={""} />
                    
-                  <TextFieldExplained  type="text" name=" Confirm Password" label="Confirm password" className="input-changes" onChange={() => {
+                  <TextFieldExplained  type="password" name=" Confirm Password" label="Confirm password" className="input-changes" onChange={() => {
             } } variant="three" errorText="Error ..." placeholder={""} />
                   <div className="box1">
                   <input type="checkbox" /> 
