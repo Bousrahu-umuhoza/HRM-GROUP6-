@@ -5,11 +5,19 @@ import Components from './comp/comp'
 import { Container } from './components/container'
 import Login from './components/Login/login'
 
+
+import SignUp from './components/signup/signup'
+import CodeVerify from './routes/codeverfy/verfy'
 import { ResetPassword } from './routes/reset-password'
+import Verification from './routes/verfication/verfication'
+
+
+
 import { Button } from '@mui/material'
 
 import { HomePage } from './routes/home/home'
 import SignUp from './routes/signup/signup'
+
 
 
 const router = createBrowserRouter([
@@ -26,7 +34,15 @@ const router = createBrowserRouter([
     path: "/reset-password",
     element: <ResetPassword/>
   },
-  
+
+  {
+    path: "/verify", 
+  element:<CodeVerify/>
+},
+{
+  path: "/verfication",
+  element:<Verification/>
+},  
  {
   path:'/login',
     element:<Login/>
@@ -37,6 +53,7 @@ const router = createBrowserRouter([
  }
 
 ])
+
 function App(){
  
 
@@ -44,6 +61,8 @@ function App(){
     <RouterProvider router={router}/>
   ) 
 }
+
+export default App;
  
-export default App
+
 
