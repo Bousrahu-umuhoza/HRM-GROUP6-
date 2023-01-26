@@ -1,5 +1,5 @@
 .second{
-    transform: translateX(100%);
+    transform: translateX(120%);
     transition: transform ease-in-out 0.1s;
 } 
 #form2.visible{
