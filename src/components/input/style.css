@@ -1,10 +1,10 @@
 .txt-field{
-    height: 56px;
+    height: 45px;
     min-width: 260px;
     width: 100%;
     max-width: 500px;
     position: relative;
-    margin: 32px 0;
+    margin: 4px 0;
     background-color:  #242424;
    
 }
@@ -83,4 +83,7 @@
     top: 14px;
  
 
+}
+.txt-field.four{
+   border: 1px solid #0f0e0e;
 }

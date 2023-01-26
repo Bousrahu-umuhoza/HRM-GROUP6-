@@ -3,14 +3,16 @@ import "./style.css"
 import { ChangeEventHandler, useState } from "react";
 
 type Props = {
+    required?: boolean,
     name: string, 
     type?: "email" | "password" | "text" | "number" | "date" | "Username", 
-    variant: "one" | "two" | "three", 
+    variant: "one" | "two" | "three" |"four", 
     label: string,
     helperText?: string,
     errorText?: string,
-    placeholder?: string,
+    placeholder: string,
     className?: string,
+    pattern?: string,
     onChange?: ChangeEventHandler<HTMLInputElement>
    
 }
@@ -21,9 +23,11 @@ export const TextFieldExplained = ({
     label, 
     helperText, 
     onChange,
-    placeholder,
+    placeholder="",
     errorText,
     className = "",
+    required = false,
+    pattern
 }: Props) => {
     const [inputValue, setInputValue] = useState("");
     const inputId = name;
@@ -35,9 +39,9 @@ export const TextFieldExplained = ({
         emptyInput = "not-empty";
     }
     
-    return <div className={`txt-field ${variant} ${emptyInput} ${className}`} >
+    return <div className={`txt-field ${variant} ${emptyInput} ${className} ${placeholder}`} >
         
-        <input id={inputId} name={name} type={type} onChange={v=>{
+        <input pattern={pattern} required={required} id={inputId} name={name} type={type} onChange={v=>{
             setInputValue(v.target.value);
             if(onChange) {
                 onChange(v);

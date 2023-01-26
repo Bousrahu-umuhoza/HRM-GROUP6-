@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #d0eeee;
+  background-color: #d0eded;
 }
 
 .container {
@@ -19,46 +19,74 @@ body {
 }
 
 .full-names label {
-  font-size: 12px;
+  font-size: 15px;
+
 }
 
 .full-names input {
-  color: red;
+  color: rgb(15, 14, 14);
+  /* border-bottom: 1px solid #000; */
+  margin: 0px;
 }
 
 button.btn {
-  font-size: 1em;
-  width: 199px;
-  margin: 48px;
-  padding: 8px;
-  background: #128989;
-  border: 1px solid #24DBDB;
+  width: 20em;
+  border-radius: 2px;
+  position: relative;
+  top: 8px;
+  color: white;
+  right: 10px;
+  background-color: #128989;
 
 }
 
-/* .col-2 h3{
-    font-size: 16px;
-    top: 167px;
-    position: absolute;
-    left: 471px; 
-    margin: 9px;
-    padding: 4px;
-    text-align: right;
-    line-height: 41px;
-  } */
-form #form.flex.flex-col {
-  margin: 82px;
-  margin-left: -7px;
+ h3{
+   display: flex;
+    font-size: 19px;
+    font-family: system-ui;
+    margin-left: 11px;
+  } 
+
+form#form.flex.flex-col p{
+  font-size: 9px;
+}
+.hey{
+  left: -12em;
+  position: relative;
+  top: 12px;
+  color: #128989;
+  font-size: 11px;
 }
 
 .link3 {
-  position: relative;
-  left: 83px;
-  color: #128989;
+  font-weight: 500;
+      color: #128989;
+      text-decoration: inherit;
+      margin-left: 5em;
 }
 
 .link2 {
-  left: 64px;
+  left: 184px;
   position: relative;
   color: #000;
 }
+.link1{
+  color: #128989;
+  text-decoration: underline;
+}
+.span{
+  font-size: 12px;
+  display: block;
+  color: #000;
+}
+ /* round input fields */
+
+
+ .round
+ {
+   width: 100px;
+   height: 100px;
+   background:none;
+   border-radius: 100px;
+   border: 1px solid rgba(0,0,0,0.4);
+ }
