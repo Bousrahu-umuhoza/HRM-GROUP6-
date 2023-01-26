@@ -29,6 +29,7 @@ background-image:url('../home/image 2.png');
     color: #fff;
     font-size: 14px;
     position: relative;
+    left: 314px;
 }
 .check button{
     position: relative;
@@ -40,7 +41,8 @@ background-image:url('../home/image 2.png');
 }
 span.resource p{
     position: relative;
-    top: 170px;
+    top: 277px;
+    left: 258px;
 }
 @media (max-width: 100%){
     .back-ground{
