@@ -1,0 +1,14 @@
+*{
+   
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+svg.recharts-surface {
+    width: 36em;
+    margin-top: 10em;
+    height: 13em;
+}
+.recharts-legend-icon{
+    width: 2em;
+}
