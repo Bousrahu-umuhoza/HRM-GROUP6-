@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import { Container } from "../../components/container"
 import './signup.css'
-import { TextFieldExplained } from "../../components/input"
+import { TextFieldExplained } from "../../components/input/"
 
 const SignUp = () => {
 

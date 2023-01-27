@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom"
 import { Container } from "../../components/container"
-import { TextFieldExplained } from "../../components/input"
+import { TextFieldExplained } from "../../components/input/"
 import './forgot.css'
 
 const ForgotPassword = ()=>{
