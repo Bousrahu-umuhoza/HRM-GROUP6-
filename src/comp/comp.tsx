@@ -1,5 +1,5 @@
 import "./comp.css"
-import {TextFieldExplained} from "../components/input"
+import {TextFieldExplained} from "../components/input/"
 const Components =() =>{
 return (
 <div className="create">

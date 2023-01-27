@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { Container } from "../container"
-import { TextFieldExplained } from "../input"
+import { TextFieldExplained } from "../input/"
 import './login.css'
 import { Vector } from "../../assets/vecor"
 import { FormEventHandler } from "react";
@@ -67,11 +67,11 @@ function Login() {
             >
             <TextFieldExplained required className="full-names" type="email" name="email" label="Email" onChange={(evt) => {
                 emailValue = evt.target.value;
-            }} variant="three" errorText="Invalid email" placeholder={""} /> <br />
+            }} variant="three" helperText="valid email" errorText="Invalid email" placeholder={""} /> <br />
             <TextFieldExplained required className="full-names" type="password" name="password" label="Password" 
                 onChange={(eventDetails) =>  {
                     passwordValue = eventDetails.target.value;  
-                 }} variant="three" errorText="Error ..." placeholder={""} />
+                 }} variant="three" helperText="Error ..." placeholder={""} />
             <div  >
             <Link to="/forgot-password"className="hey"> forgot password?<Vector /></Link>
                 </div>
