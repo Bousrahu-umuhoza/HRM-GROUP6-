@@ -9,7 +9,7 @@ export const ResetPassword = ()=>{
             <div>
             <TextFieldExplained  type="password" name="password" label="Enter New Password" className="input-changes" onChange={() => { } } variant="three" errorText="Error ..." placeholder={""} />
             <br/>
-            <TextFieldExplained  type="password" name="confirm password" label="Confirm-Password" className="input-changes" onChange={() => { } } variant="three" errorText="Error ..." placeholder={""} />           
+            <TextFieldExplained  type="password" name="confirm password" label="Confirm Password" className="input-changes" onChange={() => { } } variant="three" errorText="Error ..." placeholder={""} />           
             </div>
             
             <div>
