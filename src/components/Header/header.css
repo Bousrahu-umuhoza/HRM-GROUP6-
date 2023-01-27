@@ -1,0 +1,38 @@
+button{
+    margin-left: -71em;
+    width: 227px;
+    height: 4em;
+}
+h3{
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    padding-bottom: 14px;
+    padding-top: 15px;
+}
+.title{
+    width: 234px;
+}
+.well{
+    width: 61em;
+    margin-left: 231px;
+
+
+}
+h4{
+    margin-left: 0px;
+    background-color:#2B2B2B  ;
+    color: white;
+    padding-bottom: 13px;
+    padding-top: 16px;
+    margin-top: -53px;
+    
+}
+#btn{
+    margin-left: 75em;
+    color: white;
+    width: 162px;
+    position: relative;
+    top: -4em;
+    background-color: #2B2B2B ;
+}
