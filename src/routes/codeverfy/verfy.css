@@ -1,45 +1,38 @@
-body{
-    background-color: aliceblue;
-   padding-top: 50px;
-   margin: 2px;
-   
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
-
-
-h3{
-    padding-bottom: 20px;
-    padding-top: 20px;
-   size: 70px;
-   color: #000000;
-   font-size:xx-large;
-}
-
 h4{
-    padding-top: 20px;
-    color: #000000;
-
+    position: relative;
+    right: 82px;
+    font-weight: 400;
 }
-p a{
+.six{
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    position: relative;
+    left: 36px;
+}
+.round
+{
+    width: 39px;
+    height: 40px;
+  border-radius: 100px;
+}
+.receive-code{
+    color: dimgray;
+}
+.Resend-password{
     color: red;
 }
-p{
-    padding-bottom: 30px;
-
-
-}
-.six input{
-  width: 30px;
-  height: 40px;
-  margin: 10px;
-  font-weight: 300px;
-  text-align: center;
-  border-radius: 10px;
-    
-}
 .code{
-    background-color: #128989;
-    height: 56px;
-    width: 300px;
-    border-radius:6px;
+    width: 20em;
+    border-radius: 2px;
+    position: relative;
+    top: 8px;
     color: white;
+    right: 10px;
+    background-color: #128989;
 }

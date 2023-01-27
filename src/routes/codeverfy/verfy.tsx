@@ -6,24 +6,20 @@ import './verfy.css'
 function CodeVerify(): JSX.Element {
     return <Container>
         <div className="input-container">
-            <div className="data-container">
                 <h3>Verification</h3>
 
-                <h4>Enter verfication Code</h4>
-                <br></br><br></br>
-                {/* <button className="code"> verfy code by phone number or email</button> */}
+                <h4>Enter Verfication Code</h4>
                 <div className="six">
-                    <input type="text" maxLength={1}></input>
-                    <input type="text" maxLength={2}></input>
-                    <input type="text" maxLength={3}></input>
-                    <input type="text" maxLength={4}></input>
-                    <input type="text" maxLength={5}></input>
-                    <input type="text" maxLength={6}></input>
-                </div>
+                   
+                    <input type="text"  className="round"/>
+                    <input type="text"  className="round"/>
+                    <input type="text"  className="round"/>
+                    <input type="text"  className="round"/>
             </div>
+            
+           <span>if you didn't receive code. <a href="forgot-password" className="Resend-password">Resend</a></span>
+            <Link to="/reset-password"><button className="code">Send </button></Link>
             </div>
-           <p>if you didn't receive code. <a href="newpassword">Resend</a></p>
-            <Link to="/verfication"><button className="code">Send </button></Link>
         </Container>
 
      

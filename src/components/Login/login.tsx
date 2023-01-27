@@ -72,10 +72,13 @@ function Login() {
                 onChange={(eventDetails) =>  {
                     passwordValue = eventDetails.target.value;  
                  }} variant="three" errorText="Error ..." placeholder={""} />
-            <div  className="hey">forgot password?<Vector /></div>
+            <div  >
+            <Link to="/forgot-password"className="hey"> forgot password?<Vector /></Link>
+                </div>
             <br /><br />
             <div className="bottom">
-                <button className="btn">Login</button><br/><br/>
+            <Link to="/signup"> <button className="btn">Login</button></Link>
+            <br/><br/>
                 <span className="span">Are you now here?
                 <Link to="/signup" className="link1"> Signup </Link>
                     instead

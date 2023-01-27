@@ -29,7 +29,7 @@ const SignUp = () => {
                   <TextFieldExplained type="text" name="LastName" label="Last name" className="input-changes" onChange={() => {
             } } variant="three" errorText="Error ..." placeholder={""} />
 
-                  <TextFieldExplained  type="text" name="Email" label="Email" className="input-changes" onChange={() => { } } variant="three" errorText="Error ..." placeholder={""} />
+                  <TextFieldExplained  type="email" name="Email" label="Email" className="input-changes" onChange={() => { } } variant="three" errorText="Error ..." placeholder={""} />
 
                   <TextFieldExplained type="password" name="Password" label="Password" className="input-changes" onChange={() => { } } variant="three" errorText="Error ..." placeholder={""} />
                    

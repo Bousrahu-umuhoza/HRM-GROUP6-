@@ -1,0 +1,15 @@
+
+.forgetpassword-container{
+display: flex;
+flex-direction: column;
+gap: 30px;
+margin: 28px;
+}
+.forgot-link{
+    color: #128989;
+}
+.head-forgot{
+    font-size: 21px;
+    font-weight: 600;
+    font-style: initial;
+}
