@@ -1,9 +1,5 @@
-button{
-    margin-left: -71em;
-    width: 227px;
-    height: 4em;
-}
-h3{
+
+.HRMS-h3{
     margin-left: 0px;
     background-color: black;
     color: white;
@@ -14,12 +10,12 @@ h3{
     width: 234px;
 }
 .well{
-    width: 61em;
-    margin-left: 231px;
+    width: 1366px;
+    /* margin-left: 231px; */
 
 
 }
-h4{
+.Admin-h4{
     margin-left: 0px;
     background-color:#2B2B2B  ;
     color: white;
@@ -28,11 +24,14 @@ h4{
     margin-top: -53px;
     
 }
-#btn{
-    margin-left: 75em;
+#btn-header{
+    /* margin-left: 75em; */
     color: white;
-    width: 162px;
+    /* width: 162px; */
     position: relative;
     top: -4em;
     background-color: #2B2B2B ;
+    /* width: 227px; */
+    height: 4em;
+    left: 465px;
 }

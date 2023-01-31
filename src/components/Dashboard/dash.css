@@ -59,119 +59,107 @@
     margin-left: -5em;
 }
 .total-employees{
-    Width: 16em;
-    Height: 9em;
-
-border-Radius:20px;
-background-color: #128989;
-margin-left: 15em;
-margin-top: -329px;
+    position: relative;
+    left:247px;
+    top:-3em;
+    Width: 13em;
+    Height: 7em;
+    border-Radius:20px;
+    background-color: #128989;
 }
 #number{
     color: white;
     position: relative;
-    font-size: xx-large;
-    margin-right: 8em;
-    top: -60px;
-    left: 66px;
-
+    font-size: x-large;
+    top: -76px;
+    left: -36px;
 }
 #words{
     color: white;
-    margin-top: -3em;
-    margin-right: 7em;
+    margin-top: -4em;
+    margin-right: 5em;
 
 }
 .total-department{
-    Width: 16em;
-    Height: 9em;
-
-border-Radius:20px;
-background-color: #128989;
-margin-left: 32em;
-margin-top: -9em;
+    position: relative;
+    Width: 13em;
+    Height: 7em;
+    border-Radius:20px;
+    background-color: #128989;
+    left: 14em;
+    top: -106px;
 }
 #number1{
     color: white;
     position: relative;
-    font-size: xx-large;
-    margin-right: 8em;
-    top: -60px;
-    left: 66px;
+    font-size: x-large;
+    top: -71px;
+    left: -41px;
 }
 #word{
     color: white;
-    margin-top: -3em;
-    margin-right: 7em;
-
+    margin-top: -61px;
+    margin-right: 3em;
 }
-
 .total-employees svg{
     position: relative;
     left: 4em;
-    top: 1em;
-
+    top: 0;
 }
 .total-department svg{
     position: relative;
-    left: 5em;
-    top: 1em;
-
+    left: 4em;
+    top: 0;
 }
 .total-payslip{
-    Width: 16em;
-    Height: 9em;
-
-border-Radius:20px;
-background-color: #128989;
-margin-left: 49em;
-margin-top: -9em;
+    position: relative;
+    left: 28em;
+    top: -217px;
+    Width: 13em;
+    Height: 7em;
+    border-Radius:20px;
+    background-color: #128989;
 }
 #number2{
     color: white;
     position: relative;
-    font-size: xx-large;
-    margin-right: 8em;
-    top: -60px;
-    left: 72px;
+    font-size: x-large;
+    top: -53px;
+    left: -49px;
 
 }
 #wordss{
     color: white;
-    margin-top: -4em;
-    margin-right: 4em;
+    margin-top: -38px;
+    margin-right: 2em;
 
 }
 .total-payslip svg{
     position: relative;
-    left: 5em;
+    left: 4em;
     top: 0em;
+    top: 12px;
+    width: 4em;
 }
-/* #two{
-    position: relative;
-    top: 4px;
-} */
-.job-applies{
-    Width: 16em;
-    Height: 9em;
 
-border-Radius:20px;
-background-color: #128989;
-margin-left: 15em;
-margin-top: -45em;
+.job-applies{
+    position: relative;
+    left: 42em;
+    top: -329px;
+    Width: 13em;
+    Height: 7em;
+    border-Radius:20px;
+    background-color: #128989;
 }
 #number4{
     color: white;
     position: relative;
-    font-size: xx-large;
-    margin-right: 8em;
-    top: -60px;
-    left: 66px;
-
+    font-size: x-large;
+    top: -68px;
+    left: -50px;
 }
 #words4{
     color: white;
-    margin-top: -3em;
-    margin-right: 7em;
-
+    margin-top: -68px;
+    margin-right: 4em;
 }

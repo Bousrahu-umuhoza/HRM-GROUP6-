@@ -17,6 +17,7 @@ import Data from '../../routes/Dash/statitics';
     {/* <BarChart/> */}
     <div className='total-employees'>
         <Heads/>
+        <div className='table-cards'>
         <p id='number'>110</p>
             <p id='words'>Total Employees</p>
         </div>
@@ -36,6 +37,7 @@ import Data from '../../routes/Dash/statitics';
         <Heads/>
         <p id='number4'>77</p>
             <p id='words4'>Job Application</p>
+            </div>
         </div>
         </>
 }
