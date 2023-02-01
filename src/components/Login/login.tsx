@@ -1,44 +1,46 @@
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import { Container } from "../container"
 import { TextFieldExplained } from "../input/"
 import './login.css'
 import { Vector } from "../../assets/vecor"
-import { FormEventHandler } from "react";
+import { FormEventHandler, useState } from "react";
 
 
-const authenticateWithTheBackend = async (
-    apiUrl: string,
-    email: string,  
-    password: string
-) => {
 
-    const response = await fetch(apiUrl, {
-        method: "post",
-        headers: {
-            "accept": "application/json",
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify({email, password})
-    });
-
-    if(!response.ok){
-        const message = (await response.json()).message;
-        alert(message);
-        
-        return;
-    }
-    alert("success!");
-    // redirect user to another page
-    
-
-    
-
-
-}
 
 function Login() {
     let emailValue = "";
     let passwordValue = "";
+    let [errorMessage, setErrorMesage] = useState([])
+    const goto = useNavigate();
+
+
+    const authenticateWithTheBackend = async (
+        apiUrl: string,
+        email: string,  
+        password: string
+    ) => {
+    
+        const response = await fetch(apiUrl, {
+            method: "post",
+            headers: {
+                "accept": "application/json",
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({email, password})
+        });
+    
+        if(!response.ok){
+            errorMessage = (await response.json()).message;
+            setErrorMesage(errorMessage);
+            
+            return;
+        }
+        goto("/Dashboard");
+        // redirect user to another page
+    
+    
+    }  
     const onSubmitLoginForm: FormEventHandler<HTMLFormElement> = (evt) => {
         evt.preventDefault();
         const form = evt.target as HTMLFormElement;
@@ -67,17 +69,22 @@ function Login() {
             >
             <TextFieldExplained required className="full-names" type="email" name="email" label="Email" onChange={(evt) => {
                 emailValue = evt.target.value;
-            }} variant="three" helperText="valid email" errorText="Invalid email" placeholder={""} /> <br />
+            }} variant="three" helperText="valid email" errorText="" placeholder={""} /> <br />
             <TextFieldExplained required className="full-names" type="password" name="password" label="Password" 
                 onChange={(eventDetails) =>  {
                     passwordValue = eventDetails.target.value;  
-                 }} variant="three" helperText="Error ..." placeholder={""} />
+                 }} variant="three" helperText="" placeholder={""} />
             <div  >
             <Link to="/forgot-password"className="hey"> forgot password?<Vector /></Link>
                 </div>
             <br /><br />
             <div className="bottom">
-            <Link to="/signup"> <button className="btn">Login</button></Link>
+            {errorMessage.length && 
+                    errorMessage.map((message, index)=>{
+                        return <p key={`error-${index}`} className="error-message">{message}</p>
+                    })
+                    }
+             <button className="btn">Login</button>
             <br/><br/>
                 <span className="span">Are you now here?
                 <Link to="/signup" className="link1"> Signup </Link>
