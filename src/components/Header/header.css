@@ -1,0 +1,37 @@
+
+.HRMS-h3{
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    padding-bottom: 14px;
+    padding-top: 15px;
+}
+.title{
+    width: 234px;
+}
+.well{
+    width: 1366px;
+    /* margin-left: 231px; */
+
+
+}
+.Admin-h4{
+    margin-left: 0px;
+    background-color:#2B2B2B  ;
+    color: white;
+    padding-bottom: 13px;
+    padding-top: 16px;
+    margin-top: -53px;
+    
+}
+#btn-header{
+    /* margin-left: 75em; */
+    color: white;
+    /* width: 162px; */
+    position: relative;
+    top: -4em;
+    background-color: #2B2B2B ;
+    /* width: 227px; */
+    height: 4em;
+    left: 465px;
+}

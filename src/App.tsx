@@ -18,6 +18,14 @@ import { Button } from '@mui/material'
 import { HomePage } from './routes/home/home'
 import SignUp from './routes/signup/signup'
 import ForgotPassword from './routes/forgot-password/forgot'
+import Links from './components/Dashboard/Dashboard'
+import SideNav from './components/Dashboard/links'
+import Awards from './routes/Dash/award'
+import Calender from './routes/Dash/calender'
+import Department from './routes/Dash/department'
+import Employees from './routes/Dash/employees'
+import Report from './routes/Dash/report'
+import PaySlip from './routes/Dash/slips'
 
 
 
@@ -52,7 +60,39 @@ const router = createBrowserRouter([
  {
   path:'/forgot-password',
   element:<ForgotPassword/>
- }
+ },
+ {
+  path:"/Dashboard",
+  element:<Links/>
+},
+{
+  path:"/award",
+  element:<Awards/>
+},
+{
+  path:"/department",
+  element:<Department/>
+},
+{
+  path:"/employees",
+  element:<Employees/>
+},
+{
+  path:"/slips",
+  element:<PaySlip/>
+},
+{
+path:"/links",
+element:<SideNav visible/>
+},
+{
+path:"/calender",
+element:<Calender/>
+},
+{
+path:"/report",
+element:<Report/>
+},
 
 ])
 
